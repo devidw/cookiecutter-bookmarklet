@@ -1,28 +1,33 @@
-= {{ cookiecutter.project_name }}
+= Cookiecutter Bookmarklet
 
-{{ cookiecutter.project_short_description }}
-
-
-== Installation
-
-Copy the contents of link:bookmarklet.txt[window=_blank] to your clipboard and paste into a new entry in your browser's bookmarks bar.
+Boilerplate template to create new bookmarklets blazingly fast.
 
 
-// == Usage
-// . Execute the bookmarklet
+== Usage
+
+Follow the below steps to create a new project.
 
 
-== Development
-
-Build the https://en.wikipedia.org/wiki/Bookmarklet[bookmarklet] using the https://github.com/mrcoles/bookmarklet[bookmarlet] libary.
+=== 1. Install https://github.com/cookiecutter/cookiecutter[cookiecutter]
 
 [source,zsh]
 ----
-npm install
-npm link bookmarklet
+pip install cookiecutter
 ----
+
+
+=== 2. Create a new project
+
+For the first time:
 
 [source,zsh]
 ----
-bookmarklet ./bookmarklet.js ./bookmarklet.txt
+cookiecutter https://github.com/devidw/cookiecutter-bookmarklet.git
+----
+
+Afterwards:
+
+[source,zsh]
+----
+cookiecutter cookiecutter-bookmarklet
 ----
