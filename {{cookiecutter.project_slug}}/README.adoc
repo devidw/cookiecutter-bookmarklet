@@ -1,4 +1,5 @@
 = {{ cookiecutter.project_name }}
+:author: {{ cookiecutter.author }}
 
 {{ cookiecutter.project_short_description }}
 
