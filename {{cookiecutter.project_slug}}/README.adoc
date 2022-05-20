@@ -31,5 +31,4 @@ bookmarklet ./bookmarklet.js ./bookmarklet.txt
 
 ***
 
-
 _This https://en.wikipedia.org/wiki/Bookmarklet[Bookmarklet] was scaffolded with the https://github.com/devidw/cookiecutter-bookmarklet[cookiecutter-bookmarklet] template._
