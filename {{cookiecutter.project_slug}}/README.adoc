@@ -15,7 +15,7 @@ Copy the contents of link:bookmarklet.txt[window=_blank] to your clipboard and p
 
 == Development
 
-Build the https://en.wikipedia.org/wiki/Bookmarklet[bookmarklet] using the https://github.com/mrcoles/bookmarklet[bookmarlet] libary.
+Build the bookmarklet using the https://github.com/mrcoles/bookmarklet[bookmarlet] libary.
 
 [source,zsh]
 ----
